@@ -5,3 +5,260 @@ main-titles dark-grey: #2C303F;
 paragraph grey: #5b5e6d;
 nav grey: #5b5e6d;
 */
+
+.body {
+    background-color: #F4F3F4;
+}
+
+.menu {
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    align-items:center;
+    display:flex;
+    flex-wrap: wrap;
+    margin-top:-10px;
+    justify-content: space-between;
+}
+
+#menu-icon {
+    width: 30px;
+    padding-right: 40px;
+}
+
+.menu-escrito {
+    font-size: 12px;
+    color: #5b5e6d;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    justify-content: space-around;
+    padding-right: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-decoration-style: none;
+}
+
+.button-menu {
+    background-color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    padding: 8px;
+    border-width: 1px;
+    border-radius: 10px;
+    border-color: #d3d3d4;
+    color: #5b5e6d;
+
+}
+
+.image-logo {
+    width: 150px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.header {
+    font-size: 15px;
+    color: 5b5e6d;
+}
+
+.section1 {
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 120px;
+    padding-bottom: 20px;
+}
+
+
+
+/* SEÇÃO 1 */
+
+h1 {
+    color: #2C303F;
+    font-size: 50px;
+}
+
+p {
+   color: #5b5e6d;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-weight: 200;
+}
+
+.button {
+    background-color: #192592;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width:100%;
+    border-color: transparent;
+    border-radius: 10px;
+    font-weight: bolder;
+    border-width: 0px;
+
+}
+
+.email {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width:100%;
+    border-color: #d3d3d4;
+    border-radius: 10px;
+    border-width: 0,2px;
+    margin-bottom: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #5b5e6d;
+    padding-left: 10px;
+}
+
+.image-section1 {
+    width: 600px;
+    padding-top: 30px;
+}
+
+/* SEÇÃO 2 */
+
+.section2 {
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #F4F3F4;
+}
+
+.button2 {
+    background-color: white;
+    color: #192592;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width:100%;
+    border-color: #192592;
+    border-radius: 10px;
+    font-weight: bolder;
+    border-width: 0,1px;
+    margin-bottom: 40px;
+}
+
+.img-clients {
+    width: 200px;
+    display: block;
+    padding: 50px;
+    justify-content: center;
+    align-items:center;
+    flex-wrap: wrap;
+}
+
+
+/* SEÇÃO 3 */
+
+.section3 {
+    background-color: white;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;   
+}
+
+
+
+/* FOOTER 1 */
+
+.footer1 {
+    background-color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    color: #5b5e6d;
+}
+
+.logo-footer {
+    width: 100px;
+    padding-left: 20px;
+    padding-right: 40px;
+    padding-top: 20px;
+}
+
+#section1-footer1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    color: #5b5e6d;
+    padding-bottom: 40px;
+}
+
+#section1-footer2 {
+    display: flex;
+    flex-direction:column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    color: #5b5e6d;
+    padding-bottom: 40px;
+}
+
+
+.footer-title {
+    font-weight: bold;
+}
+
+
+
+
+/* FOOTER 2 */
+
+
+.footer2 {
+    background-color:#d3d3d4;
+    width: 100%;
+    align-items:center;
+    display:flex;
+    flex-wrap: wrap;
+    margin-top:-10px;
+    justify-content: space-between;
+    padding-bottom: 30px;
+}
+
+.footer2-title {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    color: #5b5e6d;
+    background-color:#d3d3d4;
+    align-items:center;
+    display:flex;
+    flex-wrap: wrap;
+    margin-top:10px;
+}
+
+.footer2-2 {
+    background-color:#d3d3d4;
+    width: 100%;
+    align-items:center;
+    display:flex;
+    flex-wrap: wrap;
+    margin-top:-10px;
+    justify-content:space-around;
+    color: #5b5e6d;
+    padding-bottom: 30px;
+}
+
+#bandeira {
+    width: 50px;
+    background-color:#d3d3d4;
+}
+
+
+
+
+
+@media only screen and (min-width: 1199px) {
+    #menu-icon {display: none;}
+}
+
+@media only screen and (max-width: 1200px) {
+    .menu-escrito {display: none;}
+}
